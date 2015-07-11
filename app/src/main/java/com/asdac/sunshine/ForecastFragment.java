@@ -114,7 +114,7 @@ public class ForecastFragment extends Fragment {
                 if(intent.resolveActivity(getActivity().getPackageManager()) != null) {
                     startActivity(intent);
                 } else {
-//                    Log.d(LOG_TAG, "Couldnt call " + location + ", no receiving apps installed!" );
+    //                    Log.d(LOG_TAG, "Couldnt call " + location + ", no receiving apps installed!" );
                 }
                 return true;
             default:
